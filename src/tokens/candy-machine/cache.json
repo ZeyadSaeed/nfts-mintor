@@ -1,0 +1,57 @@
+{
+  "program": {
+    "candyMachine": "CtewRTHpo6CP8NYeVsVVGVBkvU5sL3gxTg5SQikpS1nY",
+    "candyMachineCreator": "EXGeiz94BXzNoQECAkFuMnjWjnJgtu3xFDbmAN6cNfQ8",
+    "collectionMint": "9WFVJvf4H7jAwujLceBNvGC2pDtfttWtDEVvSGLvZVmd"
+  },
+  "items": {
+    "-1": {
+      "name": "Builder",
+      "image_hash": "3179dc0ea6e67e8331b95145a5b6b8c8ea7164c71b4d8aaa3a83bf80812e591c",
+      "image_link": "https://arweave.net/3YaQf8720tOCZpPB8OBlkHzMRm_S50Ucasg99PbAG5M?ext=png",
+      "metadata_hash": "e92f074117ac04ba74dc375bc296262413677831539fc052547aabf59245ba76",
+      "metadata_link": "https://arweave.net/xl4TW8iRQFjFzRvn9CzSJfd-V8fkrc6iEPF6Hh1iHLc",
+      "onChain": true
+    },
+    "0": {
+      "name": "Builder #0001",
+      "image_hash": "3179dc0ea6e67e8331b95145a5b6b8c8ea7164c71b4d8aaa3a83bf80812e591c",
+      "image_link": "https://arweave.net/u23u8kwQOVqdH5I1fAOa_-DbPsa-wWeSA-FvzjSKFFc?ext=png",
+      "metadata_hash": "8ead550a18167d3fcf525a783256953ad3db76ae8c9b3335081c02b19863e471",
+      "metadata_link": "https://arweave.net/q_YjKVRM6YNWIMT0Ah9iAfA4Rm5ytO-bkW1b0DXLnco",
+      "onChain": true
+    },
+    "1": {
+      "name": "Builder #0002",
+      "image_hash": "59b9166c9704dc78b1010d895a943e4014f24629a3cd3843c783a792a434ed4a",
+      "image_link": "https://arweave.net/WqMQYM16z5PJpRe_exAA5YgqCVMYuGG_Fl1eUbcs-ZY?ext=png",
+      "metadata_hash": "84c1d58784bfd9f1fe0848424fa0dcda4bb265ff1c20fa239911df6a0b72d98e",
+      "metadata_link": "https://arweave.net/yl5A9ubVztlg0b55MVum9q1M1Wvx8fpVom6-t_Wp6pg",
+      "onChain": true
+    },
+    "2": {
+      "name": "Builder #0003",
+      "image_hash": "9d2362389a1d2e5d91b3e1fed4771251c9647614444a98df5f32a5dd84acb8e8",
+      "image_link": "https://arweave.net/8nmYfsmG9fftIsngfzsa9PrHnapO7TPGEzu-o03wxvA?ext=png",
+      "metadata_hash": "ef04ec1292f7b8abf5ad69670e85bc801ae4c1c5ff8a1bf5d2e0c3a9e4bbebd8",
+      "metadata_link": "https://arweave.net/hJquFtrkcTI4zu1EEXWV7dDOQKMlkCZeJcYxK0rxHmI",
+      "onChain": true
+    },
+    "3": {
+      "name": "Builder #0004",
+      "image_hash": "80941660812d943b4cdb6ab5ee104f94dc5a7d9baacf6d91089a762dbbd26357",
+      "image_link": "https://arweave.net/DY1CDDusM1BaaHHEAAWtcNllnf3TKlc1w3CFZktLfSM?ext=png",
+      "metadata_hash": "5fc7d38e52eda220033753cc31412b6ad585376867221c3c7bfff162bf702749",
+      "metadata_link": "https://arweave.net/MMUjxDGsR8_ZSNyODMw6YyEkPrdpoMEWbnm5HcVLhd8",
+      "onChain": true
+    },
+    "4": {
+      "name": "Builder #0003",
+      "image_hash": "35a6c4c815910ca59f70f0314cd7f3e7a4c5938c468afd051670102324454d8b",
+      "image_link": "https://arweave.net/pfJ8Q03KnznCNSTys84WzWKamyDihBwjMLMwDl1dc5g?ext=png",
+      "metadata_hash": "859d1877abcd44e4f8aa3e2cfe3273d5bc57aa46c1690c99f983924e2215cd83",
+      "metadata_link": "https://arweave.net/Ujxuwvfs0KBiann_PaX0kHnhC5gytOxHF-xbsWoEV3k",
+      "onChain": true
+    }
+  }
+}

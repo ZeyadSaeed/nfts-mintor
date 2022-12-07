@@ -1,0 +1,28 @@
+{
+  "name": "Builder #0003",
+  "symbol": "BLDR",
+  "description": "Collection of 5 builders on the blockchain. This is the number 5/5.",
+  "image": "4.png",
+  "attributes": [
+    {
+      "trait_type": "Genre",
+      "value": "Boy"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "None"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Pink"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "4.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}

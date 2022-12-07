@@ -1,14 +1,15 @@
-import type { NextPage } from "next";
+import { FC, ReactNode } from "react";
 import Head from "next/head";
-import { Box, Center, Spacer, Stack } from "@chakra-ui/react";
 import styles from "../styles/Home.module.css";
-import Navbar from "../components/Navbar";
-import Disconnected from "../components/Disconnected";
-import Connected from "../components/Connected";
+import { Box, Center, Spacer, Stack } from "@chakra-ui/react";
+import NavBar from "./Navbar";
 import { useWallet } from "@solana/wallet-adapter-react";
+import { useRouter } from "next/router";
 
-const Home: NextPage = () => {
+const MainLayout: FC<{ children: ReactNode }> = ({ children }) => {
   const { connected } = useWallet();
+  const { asPath } = useRouter();
+
   return (
     <div className={styles.container}>
       <Head>
@@ -20,18 +21,16 @@ const Home: NextPage = () => {
       <Box
         w="full"
         h="calc(100vh)"
-        bgImage={connected ? "" : "url(/home-background.svg)"}
+        bgImage={connected && asPath === "/" ? "" : "url(/home-background.svg)"}
         backgroundPosition="center"
       >
         <Stack w="full" h="calc(100vh)" justify="center">
-          {/* NavBar */}
-          <Navbar />
+          <NavBar />
 
           <Spacer />
-          <Center>
-            {/* If connected, the second view, otherwise the first */}
-            {connected ? <Connected /> : <Disconnected />}
-          </Center>
+
+          <Center>{children}</Center>
+
           <Spacer />
 
           <Center>
@@ -41,7 +40,7 @@ const Home: NextPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                built with @_buildspace
+                build with @_buildspace
               </a>
             </Box>
           </Center>
@@ -51,4 +50,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default MainLayout;

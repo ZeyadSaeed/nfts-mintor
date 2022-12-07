@@ -17,9 +17,7 @@ const Disconnected: FC = () => {
 
   const handleClick: MouseEventHandler<HTMLButtonElement> = useCallback(
     (e) => {
-      if (e.defaultPrevented) {
-        return;
-      }
+      if (e.defaultPrevented) return;
 
       if (!wallet) {
         modalState.setVisible(true);
@@ -37,7 +35,7 @@ const Disconnected: FC = () => {
           color="white"
           as="h1"
           size="3xl"
-          noOfLines={2}
+          noOfLines={3}
           textAlign="center"
         >
           Mint your buildoor. Earn $BLD. Level up.
